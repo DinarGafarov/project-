@@ -1,0 +1,98 @@
+html{
+    font-size: 1.2vw;
+}
+
+@font-face {
+    font-family: Cormorant Infant;
+    src: url(../fonts/CormorantInfant-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Cormorant Infant;
+    src: url(../fonts/CormorantInfant-Light.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* _container */
+._container {
+    max-width: 45rem;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    position: relative;
+}
+.header__container {
+    position: fixed;
+    background-color: rgba(97, 92, 92, 0.7);
+    height: 3.5rem;
+    width: 100%;
+}
+
+.header__block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.6rem;
+    width: 100%;
+}
+
+.header__logo {
+    width: 2rem;
+    height: 2rem;
+}
+.header__logo a {
+    width: 100%;
+    height: 100%;
+}
+
+.header__menu {
+}
+
+.header__menu ul {
+    display: flex;
+}
+
+.menu__list li {
+}
+.list__item:nth-last-child(n+2){
+    margin-right: 1rem;
+}
+.list__item a {
+    text-decoration: none;
+    color: white;
+    font-family: Cormorant Infant,sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+.header__socialnet {
+
+}
+
+.header__socialnet ul{
+    display: flex;
+
+}
+
+.socialnet__list {
+
+}
+
+.socialnet__item:nth-last-child(n+2) {
+    margin-right: 1rem;
+}
+.socialnet__item {
+    width: 1.5rem;
+}
+.socialnet__item a{
+    width: 100%;
+    height: 100%;
+}
+
